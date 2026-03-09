@@ -1,0 +1,23 @@
+.login-card {
+  width: 250px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+  color: #ef4444;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
